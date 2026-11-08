@@ -25,9 +25,11 @@ from sklearn.metrics import (
     roc_auc_score,
 )
 
-MODEL_DIR = Path("model")
+BASE_DIR = Path(__file__).resolve().parent
+
+MODEL_DIR = BASE_DIR / "model"
 METADATA_FILE = MODEL_DIR / "metadata.json"
-DEFAULT_TEST_FILE = Path("test_data.csv")
+DEFAULT_TEST_FILE = BASE_DIR / "test_data.csv"
 
 st.set_page_config(
     page_title="Diagnostic Model Lab",
@@ -201,7 +203,7 @@ with single_tab:
             matrix,
             annot=True,
             fmt="d",
-            cmap="Teal",
+            cmap="Blues",
             cbar=False,
             xticklabels=["Benign", "Malignant"],
             yticklabels=["Benign", "Malignant"],
