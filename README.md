@@ -1,8 +1,7 @@
 # Machine Learning Assignment 2 - Diagnostic Model Lab
 
 > **Student:** Sangram Jadhav  
-> **BITS ID:** `[ADD YOUR BITS ID]`  
-> **Section:** `[ADD YOUR SECTION]`
+> **BITS ID:** `2026AJ05732`  
 
 ## Mandatory submission links
 
