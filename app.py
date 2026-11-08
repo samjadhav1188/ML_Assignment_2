@@ -41,24 +41,103 @@ st.set_page_config(
 st.markdown(
     """
     <style>
-      .block-container {padding-top: 1.4rem; padding-bottom: 2.5rem;}
+      .block-container {
+        padding-top: 1.4rem;
+        padding-bottom: 2.5rem;
+      }
+
       .hero {
-        padding: 1.2rem 1.4rem; border-radius: 18px;
-        background: linear-gradient(120deg, #102a43 0%, #0b7285 55%, #12b886 100%);
-        color: white; margin-bottom: 1rem;
+        padding: 1.2rem 1.4rem;
+        border-radius: 18px;
+        background: linear-gradient(
+            120deg,
+            #102a43 0%,
+            #0b7285 55%,
+            #12b886 100%
+        );
+        color: white;
+        margin-bottom: 1rem;
         box-shadow: 0 8px 24px rgba(16,42,67,.18);
       }
-      .hero h1 {margin: 0; font-size: 2.05rem;}
-      .hero p {margin: .35rem 0 0 0; opacity: .92;}
-      .small-note {font-size: .88rem; color: #52606d;}
-      div[data-testid="stMetric"] {
-        border: 1px solid #d9e2ec; padding: .65rem .8rem;
-        border-radius: 12px; background: #f8fbfd;
+
+      .hero h1 {
+        margin: 0;
+        font-size: 2.05rem;
+        color: white !important;
       }
+
+      .hero p {
+        margin: .35rem 0 0 0;
+        color: white !important;
+        opacity: .92;
+      }
+
+      .small-note {
+        font-size: .88rem;
+      }
+
+      /* Metric cards */
+      div[data-testid="stMetric"] {
+        border: 1px solid #b8cbd9;
+        padding: .70rem .85rem;
+        border-radius: 12px;
+        background-color: #ffffff;
+      }
+
+      /* Metric label */
+      div[data-testid="stMetric"] label,
+      div[data-testid="stMetric"] label p {
+        color: #334e68 !important;
+        font-weight: 600 !important;
+      }
+
+      /* Metric value */
+      div[data-testid="stMetricValue"],
+      div[data-testid="stMetricValue"] > div {
+        color: #102a43 !important;
+        font-weight: 700 !important;
+      }
+
+      /* Select box label */
+      div[data-testid="stSelectbox"] label,
+      div[data-testid="stSelectbox"] label p {
+        color: inherit !important;
+      }
+
+      /* Selected value inside select box */
+      div[data-baseweb="select"] > div {
+        color: #102a43 !important;
+        background-color: #ffffff !important;
+      }
+
+      /* Select/dropdown text */
+      div[data-baseweb="select"] span {
+        color: #102a43 !important;
+      }
+
+      /* Dropdown options */
+      div[role="listbox"] {
+        background-color: #ffffff !important;
+      }
+
+      div[role="option"] {
+        color: #102a43 !important;
+        background-color: #ffffff !important;
+      }
+
+      div[role="option"]:hover {
+        background-color: #e6f4f1 !important;
+        color: #102a43 !important;
+      }
+
     </style>
+
     <div class="hero">
       <h1>Diagnostic Model Lab</h1>
-      <p>Compare five pre-trained classifiers on uploaded Wisconsin diagnostic test data.</p>
+      <p>
+        Compare five pre-trained classifiers on uploaded
+        Wisconsin diagnostic test data.
+      </p>
     </div>
     """,
     unsafe_allow_html=True,
