@@ -2,13 +2,6 @@
 
 > **Student:** Sangram Jadhav  
 > **BITS ID:** `2026AJ05732`  
-
-## Mandatory submission links
-
-1. **GitHub repository:** `[ADD YOUR CLICKABLE GITHUB REPOSITORY URL]`
-2. **Live Streamlit app:** `[ADD YOUR CLICKABLE STREAMLIT APP URL]`
-3. **BITS Virtual Lab evidence:** Insert your own screenshot in the final PDF after running this project on the BITS Virtual Lab.
-
 ---
 
 ## a. Problem statement
@@ -171,18 +164,6 @@ python train_models.py
 
 The script uses a fixed split and writes `metrics.csv`, `test_data.csv`, five fitted pipelines, and `model/metadata.json`.
 
-## Final submission checklist
-
-- [ ] Replace student BITS ID and section placeholders.
-- [ ] Replace the GitHub URL placeholder with a working clickable repository link.
-- [ ] Replace the Streamlit URL placeholder with a working clickable app link.
-- [ ] Run the project on BITS Virtual Lab.
-- [ ] Insert one genuine BITS Virtual Lab execution screenshot in the final PDF.
-- [ ] Verify that `test_data.csv` works when uploaded.
-- [ ] Verify all five model selections and the all-model comparison.
-- [ ] Confirm the app loads without errors on Streamlit Community Cloud.
-- [ ] Confirm the final PDF contains links, screenshot, and the complete README content.
-- [ ] Submit the final version, not a draft, by the stated deadline.
 
 ## Academic-integrity note
 
