@@ -1,7 +1,6 @@
 # Machine Learning Assignment 2 - Diagnostic Model Lab
 
-> **Student:** Sangram Jadhav  
-> **BITS ID:** `2026AJ05732`  
+> **Student:** Sangram Jadhav   
 ---
 
 ## a. Problem statement
