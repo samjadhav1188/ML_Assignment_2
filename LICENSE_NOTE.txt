@@ -1,0 +1,8 @@
+Academic-use note
+=================
+
+This project package is a working learning scaffold for the submitted assignment.
+Review every file, run it in your own BITS Virtual Lab session, understand the
+methods, customize the interface and wording, and create your own Git commit
+history before submission. Do not represent unreviewed generated work as your
+independent work. The assignment PDF states that plagiarism results in zero marks.
